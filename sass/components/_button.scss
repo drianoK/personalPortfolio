@@ -1,0 +1,31 @@
+.btn-text {
+    border: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right,$color-primary, $color-primary-light);
+    text-decoration: none;
+
+    
+
+    &,
+    &:link,
+    &:visited {
+        
+        font-size: 2.2rem;
+        font-weight: 600;
+        padding: 1rem 3rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary 0%, $color-primary-light 100%);
+        -webkit-background-clip: text;
+        color:transparent;
+
+    }
+        
+
+    &:hover,
+    &:visited {
+      background-image: linear-gradient(to right, $color-primary, $color-primary-light);
+     
+    }
+
+}
+
